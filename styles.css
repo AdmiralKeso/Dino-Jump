@@ -35,7 +35,7 @@
     animation: block 1s infinite linear;
 }
 @keyframes block{
-    0%{left:480px;}
+    0%{left:800px;}
     100%{left:-40px;}
 }
 #jump-btn {
