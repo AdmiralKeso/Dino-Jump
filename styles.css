@@ -54,4 +54,6 @@
     text-align: center;
     background: beige;
     font-size: 30px;
+    justify-self: center;
+    grid-column: 2;
 }
