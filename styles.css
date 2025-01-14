@@ -14,7 +14,7 @@
     height: 50px;
     background-color: red;
     position: relative;
-    top: 150px;
+    top: 350px;
 }
 .animate {
     animation: jump 600ms;
