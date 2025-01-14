@@ -9,6 +9,13 @@
     background-color: red;
     position: relative;
     top: 150px;
+    animation: jump 600ms infinite;
+}
+@keyframes jump {
+    0%{top:150px;}
+    30%{top:100px;}
+    70%{top:100px;}
+    100%{top:150px;}
 }
 #block {
     width: 20px;
