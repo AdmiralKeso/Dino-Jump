@@ -57,3 +57,8 @@
     justify-self: center;
     grid-column: 2;
 }
+#score {
+    font-size: 25px;
+    grid-column: 3;
+    text-align: right;
+}
