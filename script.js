@@ -1,7 +1,8 @@
 var character = document.getElementById("character");
 var block = document.getElementById("block");
 var jump = document.getElementById("jump-btn");
-var score = document.getElementById("score");
+var scoreDisplay = document.getElementById("score");
+var score = 0;
 
 jump.addEventListener("click", function() {
     character.classList.add("animate"); //Add the jump animation
