@@ -14,8 +14,13 @@ jump.addEventListener("click", function() {
           isJumping = false;
         },{ once: true }); //Ensures that it only runs once
 });
+
 setInterval(function() {
   if (isJumping && parseInt(window.getComputedStyle(block).getPropertyValue("left")) <= 10) { //If isJumping=true & block position is 10px, score + 1
     score ++;
+    scoreDisplay.innerText = score;
+  }
+  else if (!isJumping && parseInt(window.getComputedStyle(block).getPropertyValue("left")) <= 10) { //If isJumping=false & block position is 10px, score reset
+    score = 0; //reset score
     scoreDisplay.innerText = score;
   }
