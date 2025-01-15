@@ -24,3 +24,4 @@ setInterval(function() {
     score = 0; //reset score
     scoreDisplay.innerText = score;
   }
+}, 100); //Check every 100ms for accurate score counting
