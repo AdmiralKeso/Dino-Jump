@@ -16,11 +16,11 @@ jump.addEventListener("click", function() {
 });
 
 setInterval(function() {
-  if (isJumping && parseInt(window.getComputedStyle(block).getPropertyValue("left")) <= 10) { //If isJumping=true & block position is 10px, score + 1
+  if (isJumping && parseInt(window.getComputedStyle(block).getPropertyValue("left")) <= 40) { //If isJumping=true & block position is 10px, score + 1
     score ++;
     scoreDisplay.innerText = score;
   }
-  else if (!isJumping && parseInt(window.getComputedStyle(block).getPropertyValue("left")) <= 10) { //If isJumping=false & block position is 10px, score reset
+  else if (!isJumping && parseInt(window.getComputedStyle(block).getPropertyValue("left")) <= 40) { //If isJumping=false & block position is 10px, score reset
     score = 0; //reset score
     scoreDisplay.innerText = score;
   }
