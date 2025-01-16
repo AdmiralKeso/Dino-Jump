@@ -26,11 +26,14 @@
     100%{top:150px;}
 }
 #block {
-    width: 20px;
-    height: 20px;
-    background-color: blue;
+    width: 100px;
+    height: 100px;
+    background-image: url('assets/images/cactus.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     position: relative;
-    top: 330px;
+    top: 200px;
     left: 500px;
     animation: block 1s infinite linear;
 }
