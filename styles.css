@@ -10,11 +10,14 @@
     border: 1px solid black;
 }
 #character {
-    width: 20px;
-    height: 50px;
-    background-color: red;
+    width: 100px;
+    height: 100px;
+    background-image: url('assets/images/dino-character.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     position: relative;
-    top: 350px;
+    top: 300px;
 }
 .animate {
     animation: jump 600ms;
